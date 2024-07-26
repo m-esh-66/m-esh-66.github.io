@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Sub-Sectioned Header</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <header class="text-black p-4  flex justify-between items-center">
+        <!-- Logo Section -->
+        <div class="whitespace-nowrap">
+            <h1  id = "name" class="text-3xl bordered-h1  "><a target="_blank" href = "file:///C:/Users/eshleman/OneDrive/Desktop/Resumes/Marcus.Eshleman_Resume2.pdf">Marcus Eshleman</h1></a>
+            
+                <script src="app.js"></script>
+        </div>
+
+        <!-- Navigation Section -->
+        <nav class="text-xl nav">
+            <ul class="flex space-x-32 mx-48 ">
+                <li><a href="#" class="nav-hover" >Experience</a></li>
+                <li><a href="#" class="nav-hover">Projects</a></li>
+                <li><a href="#" class="nav-hover">About</a></li>
+                <li><a href="#" class="nav-hover">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Search Section -->
+
+    </header>
+
+    <main class="p-4">
+        <section>
+            <h2 class="text-2xl font-semibold">Main Content</h2>
+            <p>This is the main content of the website.</p>
+        </section>
+        <aside class="bg-gray-100 p-4">
+            <h2 class="text-xl font-semibold">Sidebar</h2>
+            <p>This is some additional information in the sidebar.</p>
+        </aside>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
