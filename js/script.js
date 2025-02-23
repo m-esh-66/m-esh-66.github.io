@@ -1,4 +1,4 @@
-fetch('content.json')
+fetch('js/content.json')
   .then(response => response.json())
   .then(data => {
     for (let i = 1; i <= 4; i++) {
@@ -7,4 +7,3 @@ fetch('content.json')
     }
   })
   .catch(error => console.error('Error loading content:', error));
-  console.log("works");
