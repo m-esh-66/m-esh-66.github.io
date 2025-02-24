@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Sub-Sectioned Header</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container mx-auto">
+        <header class="text-black p-4 flex justify-between items-center">
+            <!-- Logo Section -->
+            <div class="whitespace-nowrap">
+                <h1 id="name" class="text-3xl bordered-h1">
+                    <a target="_blank" href="Marcus.Eshleman_Resume2.pdf">Marcus Eshleman</a>
+                </h1>
+            </div>
+
+            <!-- Navigation Section -->
+            <nav class="text-xl nav">
+                <ul class="flex space-x-8 mx-4">
+                    <li><a href="#" class="nav-hover">Experience</a></li>
+                    <li><a href="projects.html" class="nav-hover">Projects</a></li>
+                    <li><a href="#" class="nav-hover">About</a></li>
+                    <li><a href="#" class="nav-hover">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Full-Width Gray Background and Cards -->
+    <div class="w-full bg-gray-100">
+        <h1>Projects</h1>
+    </div>
+
+    <!-- Full-Width Footer -->
+    <footer class="w-full bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
